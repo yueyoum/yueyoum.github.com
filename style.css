@@ -1,0 +1,80 @@
+body {
+    font-size: 14px;
+}
+
+
+#content{
+    width: 960px;
+    margin: 50px auto;
+    /*background: gray;*/
+}
+
+#leftPanel {
+    width: 300px;
+    float: left;
+    text-align: right;
+}
+
+#rightPanel {
+    width: 620px;
+    float: right;
+    /*border-left: 1px solid #abc;*/
+    margin-left: 30px;
+}
+
+.clear-both {
+    clear: both;
+}
+
+
+#selfIntro {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #333;
+}
+
+.intro-head {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    margin: 20px 0;
+}
+
+#selfIntro a {
+    font-size: 14px;
+    color: blue;
+}
+
+.look-at {
+    font-size: 14px;
+    color: green;
+    /*font-weight: bold;*/
+}
+
+.repo {
+    /*background: gray;*/
+    border-bottom: 1px dashed #eee;
+    margin-bottom: 20px;
+}
+
+.repo-header {
+    font-size: 22px;
+    padding-left: 20px;
+    border-left: 6px solid #8cd;
+    color: #333;
+}
+
+.repo-header a {
+    color: #333;
+    text-decoration: none;
+}
+
+.repo-header a:hover {
+    color: #8cd;
+}
+
+.repo-intro {
+    font-size: 13px;
+    padding: 10px 0px 20px 28px;
+    color: #666;
+}
