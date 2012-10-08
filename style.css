@@ -6,7 +6,6 @@ body {
 #content{
     width: 960px;
     margin: 50px auto;
-    /*background: gray;*/
 }
 
 #leftPanel {
@@ -18,13 +17,19 @@ body {
 #rightPanel {
     width: 620px;
     float: right;
-    /*border-left: 1px solid #abc;*/
     margin-left: 30px;
 }
 
 .clear-both {
     clear: both;
 }
+
+
+#pictures {
+    width: 300px;
+    text-align: left;
+}
+
 
 
 #selfIntro {
@@ -36,11 +41,11 @@ body {
 .intro-head {
     font-size: 18px;
     font-weight: bold;
-    color: #666;
+    color: #999;
     margin: 20px 0;
 }
 
-#selfIntro a {
+#selfIntro p a {
     font-size: 14px;
     color: blue;
 }
@@ -48,11 +53,9 @@ body {
 .look-at {
     font-size: 14px;
     color: green;
-    /*font-weight: bold;*/
 }
 
 .repo {
-    /*background: gray;*/
     border-bottom: 1px dashed #eee;
     margin-bottom: 20px;
 }
@@ -76,5 +79,9 @@ body {
 .repo-intro {
     font-size: 13px;
     padding: 10px 0px 20px 28px;
-    color: #666;
+    color: #777;
+}
+
+.repo-intro a {
+    color: blue;
 }
