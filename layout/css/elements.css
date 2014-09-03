@@ -969,6 +969,12 @@
 		text-decoration: none;
 	}
 	
+	.parallax.full-screen a.link {
+	    height: auto;
+	    width: 200px;
+	    bottom: 0;
+	}
+	
 	.parallax.full-screen a i {
 		font-size: 20px;
 		line-height: 48px;
