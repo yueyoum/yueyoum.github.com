@@ -192,7 +192,7 @@
                             </li>
                             <li>
                                 Blog:
-                                <a href="www.jianshu.com/users/c7280c360737" target="_blank">Link</a>
+                                <a href="http://www.jianshu.com/users/c7280c360737" target="_blank">Link</a>
                             </li>
                             <li>
                                 Photography:
@@ -260,7 +260,7 @@
                             <p>
                             	发起者/主导<br>
                             	Python, Erlang, Unity3d<br>
-                            	<a href="">Link</a>
+                            	<a href="https://github.com/code-battlefield" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -275,7 +275,14 @@
                                 因为兴趣而自学的各种技术都用到了。3ds max建模、动作，uvLayout拆分UV，
                                 xNormal渲染AO、normal贴图，photoshop绘制漫反射，高光贴图，Unity3d快速
                                 实现客户端，Erlang实现服务端。后来又用Python+Gevent重写了服务器。
-
+                            </p>
+                            
+                            <p>
+                                用Gevent重写服务器是因为随着对Gevent的使用，对它的理解也越来越多，
+                                再加上本来就熟悉Python以及OOP技术，并且由于在用Erlang的时候也感觉到
+                                它不方便的地方，（ <a href="http://www.jianshu.com/p/571db0eb95f8" target="_blank">这里有一篇blog说明这个问题</a> ），
+                                所以后来用Gevent重写。用Gevent重写还是很愉快的事情，业务逻辑本来就熟悉，
+                                所以只用了一个下午便完成了Python的服务端。
                             </p>
 
                             
@@ -294,7 +301,7 @@
                             <p>
                             	发起者/主导<br>
                             	Python<br>
-                            	<a href="https://github.com/yueyoum/social-oauth">Link</a>
+                            	<a href="https://github.com/yueyoum/social-oauth" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -304,7 +311,7 @@
                             <h3 class="text-uppercase">Social Oauth</h3>
                             
                             <p>
-                                用于Python的一个Oauth2库，内置中国大陆10个站点<br/>
+                                用于Python的一个Oauth2库，支持中国大陆10个站点<br/>
                                 起因是为自己网站做的第三方登录功能。后来自己网站没做出来，就把这个库
                                 开源了出来。在merge了热心开发者的一些pull requests后，目前已经能支持
                                 人人，腾讯，豆瓣，新浪微博，网易微博，搜狐微博，百度，开心网，淘宝，微信
@@ -328,7 +335,7 @@
                             <p>
                             	发起者/主导<br>
                             	Erlang<br>
-                            	<a href="https://github.com/yueyoum/make-proxy">Link</a>
+                            	<a href="https://github.com/yueyoum/make-proxy" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -360,7 +367,7 @@
                             <p>
                             	发起者/主导<br>
                             	Python<br>
-                            	<a href="https://github.com/yueyoum/renren-relationship">Link</a>
+                            	<a href="https://github.com/yueyoum/renren-relationship" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -374,6 +381,12 @@
                                 起初的计划很大，要顺着好友的好友的好友...这么一条链做点事情，
                                 但后来发现人人网关闭了查看非好友的好友列表这个功能，于是就退化成了
                                 渲染自己好友类聚的程序。
+                            </p>
+                            
+                            <p>
+                                本来想用 <a href="http://d3js.org/", target="_blank">d3js</a>
+                                做一个基于web的展示页面，但后来偷懒，直接在本地用 
+                                <a href="http://www.graphviz.org/", target="_blank">graphviz</a>来生成的图片
                             </p>
 
                             
@@ -394,7 +407,7 @@
                             <p>
                             	发起者/主导<br>
                             	Python<br>
-                            	<a href="https://github.com/yueyoum/django-upload-avatar">Link</a>
+                            	<a href="https://github.com/yueyoum/django-upload-avatar" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -424,7 +437,7 @@
                             <p>
                             	发起者/主导<br>
                             	Python<br>
-                            	<a href="https://github.com/yueyoum/django-siteuser">Link</a>
+                            	<a href="https://github.com/yueyoum/django-siteuser" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -457,7 +470,7 @@
                             <p>
                             	发起者/主导<br>
                             	Python<br>
-                            	<a href="https://github.com/yueyoum/timerush">Link</a>
+                            	<a href="https://github.com/yueyoum/timerush" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -468,8 +481,8 @@
                             
                             <p>
                                 定时器<br/>
-                                一个定时器服务，应用将要定时的时间，以及通知地址，通知数据注册到这个定时服务，
-                                定时服务就会在时间达到时带着通知数据去访问通知地址。
+                                一个定时器服务，应用将要定时的时间，回调地址，回调数据注册到这个定时服务，
+                                定时服务就会在时间达到时带着回调数据去访问回调地址。
                                 测试数据显示这个定时服务可以做到 瞬间并发10000个定时器，它们的定时时间分布在1~60秒，
                                 45.6%的定时器能够准确触发，剩余的54.4%的定时器延迟了1秒触发
 
@@ -492,7 +505,7 @@
                             <p>
                             	发起者/主导<br>
                             	Python<br>
-                            	<a href="https://github.com/yueyoum/paper">Link</a>
+                            	<a href="https://github.com/yueyoum/paper" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -525,7 +538,7 @@
                             <p>
                             	发起者/主导<br>
                             	Python<br>
-                            	<a href="https://github.com/yueyoum/seven-cow">Link</a>
+                            	<a href="https://github.com/yueyoum/seven-cow" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -536,8 +549,7 @@
                             
                             <p>
                                 七牛云存储SDK<br/>
-                                自己根据官方文档实现的一个SDK，对比官方的SDK最大好处就是使用特别简单
-
+                                根据官方文档实现的一个SDK，对比官方的SDK最大好处就是使用特别简单
 
                             </p>
 
@@ -557,7 +569,7 @@
                             <p>
                             	发起者/主导<br>
                             	Python<br>
-                            	<a href="https://github.com/yueyoum/abchat">Link</a>
+                            	<a href="https://github.com/yueyoum/abchat" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -590,7 +602,7 @@
                             <p>
                             	发起者/主导<br>
                             	Python<br>
-                            	<a href="https://github.com/yueyoum/daemonize">Link</a>
+                            	<a href="https://github.com/yueyoum/daemonize" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -601,9 +613,6 @@
                             
                             <p>
                                 让Python程序可以脱离终端，在后台运行<br/>
-
-
-
                             </p>
 
                             
@@ -621,7 +630,7 @@
                             <p>
                             	发起者/主导<br>
                             	Python<br>
-                            	<a href="https://github.com/yueyoum/python-gears">Link</a>
+                            	<a href="https://github.com/yueyoum/python-gears" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -632,9 +641,6 @@
                             
                             <p>
                                 基于Django的一个BBS
-
-
-
                             </p>
 
                             
@@ -653,7 +659,7 @@
                             <p>
                             	发起者/主导<br>
                             	VimL<br>
-                            	<a href="https://github.com/yueyoum/vim-alignment">Link</a>
+                            	<a href="https://github.com/yueyoum/vim-alignment" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -663,9 +669,8 @@
                             <h3 class="text-uppercase">Vim Alignment</h3>
                             
                             <p>
-                                一个VIM对齐插件
-
-
+                                一个VIM对齐插件<br/>
+                                当时为了学习VIM插件时所写的一个小插件。（目前自己没在使用）
 
                             </p>
 
@@ -686,7 +691,7 @@
                             <p>
                             	参与者<br>
                             	Python<br>
-                            	<a href="https://github.com/defnull/bottle/pull/458">Link</a>
+                            	<a href="https://github.com/defnull/bottle/pull/458" target="_blank">Link</a>
                             </p>
                         </div><!-- end .cv-section-title -->
                         
@@ -696,10 +701,15 @@
                             <h3 class="text-uppercase">给Bottle提交pull request</h3>
                             
                             <p>
-                                见link
+                                bottle自己的 start_response 函数只接受两个参数，
+                                然而WSGI规范是定了第三个可选参数。当bottle与beaker配合的时候，
+                                beaker按照规范调用 start_response 的时候传递了三个参数，
+                                此时bottle就会报错。
 
-
-
+                            </p>
+                            
+                            <p>
+                                所以我按照规范修改了bottle中对应的代码。最后bottle merge了我提交的pull request
                             </p>
 
                             
@@ -768,6 +778,48 @@
                                 公司内部服务搭建，项目编辑器，通信消息定义，服务器设计，实现，部署，都是自己的工作内容。
                                 在这一年的工作中，不仅仅技术有进步，更大的收获是意识到 完善的开发流程，严格的项目进度管理 是多么的重要
                             </p>
+                            
+                            <p>
+                                使用到的技术
+                                <ul>
+                                    <li>Nginx</li>
+                                    <li>uWSGI</li>
+                                    <li>Django</li>
+                                    <li>Mysql</li>
+                                    <li>Redis</li>
+                                    <li>Mongodb</li>
+                                    <li>Google Protobuf</li>
+                                </ul>
+                            </p>
+                            
+                            <p>
+                                服务架构是这样的：
+                                
+                                        +-------+
+                                        |  HUB  |
+                                        +-------+
+                                            |
+                                    -------------------
+                                    |                 |
+                                +----------+     +-----------+
+                                | SERVER 1 |     | SERVER 2  |
+                                +----------+     +-----------+
+                                <br/> 
+                                
+                                中心服务器HUB维护着 服务器列表，帐号，角色基本信息这些游戏相关数据。
+                                并且后台管理页面也是在HUB服务器上，在管理页面对整个游戏做统一管理。
+                                <br/>
+                                
+                                每个SERVER（逻辑服务器，也就是游戏中看到的开了多少服务器）将自己的数据存在自己的Mongodb中。
+                                并且SERVER和HUB之间通过HTTPS API互相调用。
+                                <br/>
+                                
+                                所以这个系统使用Mongodb作为主存储，但当项目后期，却发现Mongodb各种坑，
+                                这篇文章我也是感同身受，
+                                <a href="https://ruby-china.org/topics/20128", target="_blank">MongoDB 那些坑</a>。
+                                以后的项目，还是Mysql + redis这样的组合更方便好用。
+                                
+                            </p>
 
                             
                         </div><!-- end .cv-item -->
@@ -807,9 +859,9 @@
                             <h3 class="text-uppercase">手机游戏服务端程序员</h3>
                             
                             <p>
-                                服务端和客户端程序都各只有一人<br/>
+                                开始进入游戏行业，公司服务端和客户端程序都各只有一人<br/>
                                 我从事服务端开发，使用了Gunicorn, Gevent, Bottle, Redis, Google Protobuf这些组件。
-                                编辑器，服务器架构和实现，部署，都是我的工作内容。同时也主要设计了与客户端交互的消息格式。
+                                编辑器，服务器架构和实现，部署，都是我的工作内容。同时也设计了与客户端交互的消息格式。
                             </p>
                             
                             <p>
@@ -870,6 +922,15 @@
                             <p>独自完成有两款应用，一个是阅读漫画的，一个是阅读小说的。
                             从设计文档，定义交互接口和数据格式，设定管理后台，爬虫，自动化任务等，
                             一步步完成，这些应用都拥有了上百万用户。
+                            </p>
+                            
+                            <p>
+                                除了技术进步，完成项目外，这里也教会了我规范的开发流程。<br/>
+                                与项目经理确认开发任务， 查看需求文档，开发中每天写工作日志，
+                                与PA/PM沟通，与合作的技术人员沟通，每天的邮件会议，完成后部署到测试服务器提交测试，
+                                最后与SA沟通部署到正式服务器上线。<br/>
+                                这些看似繁琐的步骤其实才是效率的保证，不过后来一直在创业公司，这些流程都无法做到。
+                                
                             </p>
                             
                         </div><!-- end .cv-item -->
@@ -1009,7 +1070,7 @@
                             <h3 class="text-uppercase">陕西勉县第一中学（高中）</h3>
                             
                             <p>勉县第一中学是陕西省重点高中，也是当年首次清华自主招生可获校长推荐的
-                            陕南三个市中唯一一个高中。在高中三年的学习中，取得了汉中市高中化学竞赛二等奖的奖励。
+                            陕南三个市中唯一一个高中。在高中三年的学习中，取得了市高中化学竞赛二等奖的奖励。
                             </p>
                             
                         </div><!-- end .cv-item -->
